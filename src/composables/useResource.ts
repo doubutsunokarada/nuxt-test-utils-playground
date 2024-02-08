@@ -1,7 +1,7 @@
 import { useQuery } from '@tanstack/vue-query';
 import axios, { type AxiosResponse } from 'axios';
 
-type Person = {
+export type Person = {
   id: number;
   first_name: string;
   last_name: string;
